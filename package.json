@@ -1,0 +1,22 @@
+{
+  "name": "nsp-check-remote",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (https://about.me/peterdehaan)",
+  "bin": {
+    "nsp-check-remote": "bin/cli.js"
+  },
+  "dependencies": {
+    "nsp": "^2.6.1",
+    "package-json": "^2.4.0",
+    "yargs": "^5.0.0"
+  },
+  "keywords": [
+    "nsp",
+    "package.json"
+  ],
+  "license": "WTFPL",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  }
+}
