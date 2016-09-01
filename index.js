@@ -6,6 +6,6 @@ exports.checkLatest = (name, formatter = 'default') => packageJson(name, 'latest
       nsp.check({package}, (err, data) => {
         const fmt = nsp.getFormatter(formatter);
         const output = fmt(err, data);
-        resolve({err, data, output, name});
+        resolve({err, data, output, name, package});
       });
     }));
